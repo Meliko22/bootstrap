@@ -1,0 +1,134 @@
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+header nav, footer, main, body{
+    background-color: black;
+}
+
+
+
+.carousel {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+main section h3,footer{
+    color: aliceblue;
+}
+
+
+
+aside h3{
+    align-content: center;
+    align-items: center;
+    background-color: #5ab34e;
+    background: rgb(143,171,145);
+    background: radial-gradient(circle, rgba(143,171,145,1) 18%, rgba(7,94,65,1) 47%, rgba(127,181,158,0.05926120448179273) 65%, rgba(4,168,166,1) 82%, rgba(3,183,196,1) 88%, rgba(2,195,220,1) 93%, rgba(1,202,235,1) 96%, rgba(0,212,255,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 200px;
+    height: 70px;
+    justify-items: center;
+    border-radius: 30%;
+    animation-name: descuento;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    position: relative;
+ }
+
+ @keyframes descuento {
+    0% {left: 0px; top: 0px}
+    25% {left: 3px; top: 3px}
+    50%{ left: 5px; top: 5px}
+    75%{ left: 3x; top: 3px}
+    100%{ left: 0px; top: 0px}
+}
+
+table {
+    background-color: #7fffd4;
+    border: #000000;
+    border-style: double;
+ 
+}
+
+table th {
+    padding: 30px 30px 30px 30px;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+table td {
+
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+
+}
+table img {
+    width: 250px;
+    height: 250px;
+}
+.formulario {
+
+    background-image: url("img/aurora.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 200px 200px 200px 200px;
+    color: #fffefd;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.formulario form input, textarea {
+    color: #050505;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.mayorista div {
+
+    background-image: url("img/ruta.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+    color: #fffefd;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    display: row;
+    justify-content: center;
+
+}
+
+
+.nosotros div {
+    background-image: url("img/nosotros.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: #fffefd;
+        font-family: 'Quicksand', sans-serif;
+        width: auto;
+        height: 500px;
+        text-align: center;
+        align-content: center;
+        margin: auto;
+    
+            }
+    
+        .nosotros div p {
+    
+            font-size: 100vh 100vw;
+        }
